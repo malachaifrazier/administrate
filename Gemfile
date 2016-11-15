@@ -5,7 +5,7 @@ gemspec
 gem "administrate-field-image",
   git: "https://github.com/thoughtbot/administrate-field-image.git",
   branch: "jq-rails-5"
-gem "bourbon", "~> 4.2"
+gem "bourbon", "~> 5.0.0.beta.7"
 gem "delayed_job_active_record"
 gem "faker"
 gem "high_voltage"
@@ -39,6 +39,7 @@ group :test do
   gem "shoulda-matchers", "~> 2.8.0", require: false
   gem "timecop"
   gem "webmock"
+  gem "rails-controller-testing"
 end
 
 group :staging, :production do
