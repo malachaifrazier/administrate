@@ -10,7 +10,7 @@ GIT
 PATH
   remote: .
   specs:
-    administrate (0.3.0)
+    administrate (0.3.1)
       autoprefixer-rails (~> 6.0)
       bourbon (~> 4.2)
       datetime_picker_rails (~> 0.0.7)
